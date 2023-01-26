@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+#letf{
+    background-color: red;
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+#leftimg{
+    margin-left: 10px;
+    width: 90%;
+    height: 25%;
+    margin-top: 5px;
+}
+
+#left i{
+    color: white;
+
+}
+
+.fa-5x{
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    /* border: 1px solid white; */
+    margin-top: 10px !important;
+    color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#lefti{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.fa-5x:hover{
+    background-color: black;
+    padding: 5px;
+    /* border: 1px solid white; */
+    margin-top: 10px !important;
+    color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#right{
+    padding-left: 5%;
+    float: right;
+    width: 85%;
+    height: 100%;
+    background-color: black;
+}
+
+#img{
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10%;
+    background-size: contain;
+    margin-top: 35px;
+    margin-left: 15%;
+    width: 600px;
+    height: 650px;
+}
+
+#biggraph{
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 35px;
+    background-color: antiquewhite;
+}
+
+.icons i{
+    margin-left: 10px;
+}
+
+.icons i:hover{
+    color:rgb(167, 168, 169);
+}
+
+.iconblac{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconblac h5{
+    margin-left: 15px;
+}
