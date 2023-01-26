@@ -5,6 +5,12 @@
     color: white;
 }
 
+
+body{
+    background-color: bisque;
+}
+
+
 #letf{
     background-color: red;
     height: 100vh;
@@ -17,6 +23,7 @@
     padding-bottom: 100px;
 }
 
+
 #leftimg{
     margin-left: 10px;
     width: 90%;
@@ -24,36 +31,39 @@
     margin-top: 5px;
 }
 
+
 #left i{
     color: white;
 
 }
 
+
 .fa-5x{
     text-align: center;
     width: 150px;
     padding: 5px;
-    /* border: 1px solid white; */
     margin-top: 10px !important;
     color: white;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 
 #lefti{
     font-size: 20px;
     letter-spacing: 3px;
 }
 
+
 .fa-5x:hover{
     background-color: black;
     padding: 5px;
-    /* border: 1px solid white; */
     margin-top: 10px !important;
     color: white;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 
 #right{
     padding-left: 5%;
@@ -62,6 +72,7 @@
     height: 100%;
     background-color: black;
 }
+
 
 #img{
     background-image: url(4.jpg);
@@ -75,6 +86,7 @@
     height: 650px;
 }
 
+
 #biggraph{
     z-index: 1;
     margin-left: auto;
@@ -84,13 +96,16 @@
     background-color: antiquewhite;
 }
 
+
 .icons i{
     margin-left: 10px;
 }
 
+
 .icons i:hover{
     color:rgb(167, 168, 169);
 }
+
 
 .iconblac{
     margin-top: 10px;
@@ -98,6 +113,7 @@
     flex-direction: row;
     align-items: center;
 }
+
 
 .iconblac h5{
     margin-left: 15px;
